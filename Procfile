@@ -1,3 +1,3 @@
-worker: python3 quickstart.py
+worker: python3 bot.py
 
 
