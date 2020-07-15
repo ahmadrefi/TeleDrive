@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 def getCreds():
 
   creds = None
-  SCOPES = 'https://www.googleapis.com/auth/drive'
+  SCOPES = 'application/vnd.google-apps.folder'
 
   if os.path.exists('token.pickle'):
       with open('token.pickle', 'rb') as token:
